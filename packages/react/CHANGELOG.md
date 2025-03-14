@@ -19,7 +19,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -63,7 +62,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.6.3 (2024-12-24)
 
 ### 🧱 Updated Dependencies
@@ -76,7 +74,6 @@
 - George Desipris @desiprisg
 - George Djabarov @djabarovgeorge
 - Pawan Jain
-
 
 ## 2.6.2 (2024-11-26)
 
@@ -96,7 +93,7 @@
 
 - Updated @novu/js to 2.6.3
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Biswajeet Das @BiswaViraj
 - George Desipris @desiprisg
@@ -129,7 +126,7 @@
 - **js,react:** inbox custom bell unread count not updating ([#6362](https://github.com/khulnasoft/novu/pull/6362))
 - **react:** fixed the sourcemaps ([485861181](https://github.com/khulnasoft/novu/commit/485861181))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Biswajeet Das
 - Dima Grossman
