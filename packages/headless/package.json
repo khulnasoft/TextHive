@@ -1,7 +1,7 @@
 {
   "name": "@novu/headless",
   "version": "2.6.6",
-  "repository": "https://github.com/novuhq/novu",
+  "repository": "https://github.com/khulnasoft/novu",
   "description": "Headless client package that is a thin abstraction layer over the API client + state and socket management",
   "keywords": [],
   "license": "MIT",

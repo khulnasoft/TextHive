@@ -29,7 +29,7 @@ PrimaryUse.args = {
           uses: actions/checkout@v2
   
         - name: Sync State to Novu
-          uses: novuhq/actions-novu-sync@v0.0.4
+          uses: khulnasoft/actions-novu-sync@v0.0.4
           with:
             novu-api-key: ${apiKey}
             bridge-url: ${bridgeUrl}`,

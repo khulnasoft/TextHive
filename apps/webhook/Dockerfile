@@ -1,5 +1,5 @@
 # Use the base image for development
-FROM ghcr.io/novuhq/novu/base:1.0.0 AS dev
+FROM ghcr.io/khulnasoft/novu/base:1.0.0 AS dev
 ARG PACKAGE_PATH
 
 # Copy necessary directories to the image with appropriate ownership
@@ -7,7 +7,7 @@ COPY --chown=1000:1000 ./meta ./deps ./pkg ./
 
 # Install dependencies and build the webhook service
 RUN --mount=type=cache,id=pnpm-store-webhook,target=/root/.pnpm-store \
-    pnpm install --reporter=silent --filter "novuhq" --filter "{${PACKAGE_PATH}}..." \
+    pnpm install --reporter=silent --filter "khulnasoft" --filter "{${PACKAGE_PATH}}..." \
     --frozen-lockfile --unsafe-perm --reporter=silent && \
     NODE_ENV=production pnpm build:webhook
 
@@ -31,7 +31,7 @@ RUN rm -rf node_modules && pnpm recursive exec -- rm -rf ./src ./node_modules
 
 # ------- PRODUCTION BUILD ----------
 # Use the base image for production
-FROM ghcr.io/novuhq/novu/base:1.0.0 AS prod
+FROM ghcr.io/khulnasoft/novu/base:1.0.0 AS prod
 ARG PACKAGE_PATH
 
 # Set environment variables for production

@@ -5,7 +5,7 @@ import { BaseHandler } from './base.handler';
 /**
  * DEPRECATED:
  * This provider has been deprecated and will be removed in future version.
- * See: https://github.com/novuhq/novu/issues/2315
+ * See: https://github.com/khulnasoft/novu/issues/2315
  */
 export class EmailJsHandler extends BaseHandler {
   constructor() {

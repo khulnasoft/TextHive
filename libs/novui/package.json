@@ -1,7 +1,7 @@
 {
   "name": "@novu/novui",
   "version": "2.0.1",
-  "repository": "https://github.com/novuhq/novu",
+  "repository": "https://github.com/khulnasoft/novu",
   "description": "Novu's Design System & Component Library",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",

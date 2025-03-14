@@ -77,7 +77,7 @@ export const SpotLight = ({ children }) => {
         id: 'navigate-share-feedback',
         title: 'Share Feedback',
         onTrigger: () => {
-          window?.open('https://github.com/novuhq/novu/issues/new/choose', '_blank')?.focus();
+          window?.open('https://github.com/khulnasoft/novu/issues/new/choose', '_blank')?.focus();
         },
         icon: <Chat />,
       },

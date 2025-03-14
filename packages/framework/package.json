@@ -12,7 +12,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/novuhq/novu.git"
+    "url": "git+https://github.com/khulnasoft/novu.git"
   },
   "files": [
     "dist",

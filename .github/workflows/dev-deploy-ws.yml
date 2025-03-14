@@ -65,7 +65,7 @@ jobs:
       - name: Checkout cloud infra
         uses: actions/checkout@master
         with:
-          repository: novuhq/cloud-infra
+          repository: khulnasoft/cloud-infra
           token: ${{ secrets.GH_PACKAGES }}
           path: cloud-infra
 

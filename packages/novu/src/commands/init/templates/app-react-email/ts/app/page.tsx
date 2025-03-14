@@ -420,7 +420,7 @@ export default function Home() {
             <h3>Community</h3>
             <ul>
               <li>
-                <a href="https://github.com/novuhq/novu" target="_blank">
+                <a href="https://github.com/khulnasoft/novu" target="_blank">
                   GitHub
                 </a>
               </li>
@@ -430,7 +430,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/novuhq" target="_blank">
+                <a href="https://twitter.com/khulnasoft" target="_blank">
                   Twitter
                 </a>
               </li>

@@ -161,8 +161,8 @@ export const createGoSnippet = ({ identifier, to, payload, secretKey }: CodeSnip
 
 import (
 	"context"
-	novugo "github.com/novuhq/novu-go"
-	"github.com/novuhq/novu-go/models/components"
+	novugo "github.com/khulnasoft/novu-go"
+	"github.com/khulnasoft/novu-go/models/components"
 	"log"
 	"os"
 )

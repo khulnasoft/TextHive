@@ -21,7 +21,7 @@ echo "📡 Fetching latest commit hash from private repository..."
 echo "   Branch: $TARGET_BRANCH"
 echo ""
 
-PRIVATE_REPO_URL_WITH_TOKEN="https://$SUBMODULES_TOKEN@github.com/novuhq/packages-enterprise.git"
+PRIVATE_REPO_URL_WITH_TOKEN="https://$SUBMODULES_TOKEN@github.com/khulnasoft/packages-enterprise.git"
 PRIVATE_BRANCH_HASH=$(timeout $TIMEOUT_SECONDS git ls-remote "$PRIVATE_REPO_URL_WITH_TOKEN" "refs/heads/$TARGET_BRANCH" | awk '{print $1}')
 
 if [ $? -eq 124 ]; then

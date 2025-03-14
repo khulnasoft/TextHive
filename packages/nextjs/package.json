@@ -1,7 +1,7 @@
 {
   "name": "@novu/nextjs",
   "version": "2.6.6",
-  "repository": "https://github.com/novuhq/novu",
+  "repository": "https://github.com/khulnasoft/novu",
   "description": "Novu <Inbox /> Next.js SDK",
   "author": "Novu",
   "license": "ISC",

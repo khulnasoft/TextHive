@@ -157,7 +157,7 @@ export const createGoSnippet = ({ identifier, to, payload, snippet, secretKey }:
 import (
 	"context"
 	"fmt"
-	novu "github.com/novuhq/go-novu/lib"
+	novu "github.com/khulnasoft/go-novu/lib"
 	"log"
 )
 

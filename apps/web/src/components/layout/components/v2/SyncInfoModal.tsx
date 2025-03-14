@@ -161,7 +161,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync State to Novu
-        uses: novuhq/actions-novu-sync@v2
+        uses: khulnasoft/actions-novu-sync@v2
         with:
           secret-key: $\{{ secrets.NOVU_SECRET_KEY }}
           bridge-url: ${bridgeUrl || BRIDGE_ENDPOINT_PLACEHOLDER}`;

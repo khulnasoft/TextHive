@@ -41,4 +41,4 @@ await provider.sendMessage({
 });
 ```
 
-For all supported providers, visit the [Novu Providers package](https://github.com/novuhq/novu/tree/next/packages/providers/src/lib).
+For all supported providers, visit the [Novu Providers package](https://github.com/khulnasoft/novu/tree/next/packages/providers/src/lib).

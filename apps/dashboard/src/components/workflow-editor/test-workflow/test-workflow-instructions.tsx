@@ -241,7 +241,12 @@ export function TestWorkflowInstructions({ isOpen, onClose, workflow, to, payloa
               </TabsContent>
 
               <TabsContent value="php" className="space-y-8">
-                <InstructionStep index={0} title="Install" code='composer require "novuhq/novu"' codeTitle="Terminal" />
+                <InstructionStep
+                  index={0}
+                  title="Install"
+                  code='composer require "khulnasoft/novu"'
+                  codeTitle="Terminal"
+                />
 
                 <InstructionStep
                   index={1}
@@ -291,7 +296,7 @@ NOVU_SECRET_KEY='${apiKey}'`}
                 <InstructionStep
                   index={0}
                   title="Install"
-                  code="go get github.com/novuhq/novu-go"
+                  code="go get github.com/khulnasoft/novu-go"
                   codeTitle="Terminal"
                 />
 

@@ -462,7 +462,7 @@ clone_monorepo () {
 	echo ""
 
     	if [[ "$RESPONSE" == "$POSITIVE_RESPONSE" ]]; then
-            REPOSITORY="git@github.com:novuhq/novu.git"
+            REPOSITORY="git@github.com:khulnasoft/novu.git"
             DESTINATION_FOLDER="$HOME/Dev"
             NOVU_FOLDER="$DESTINATION_FOLDER/novu"
 

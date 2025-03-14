@@ -10,7 +10,7 @@ import { WIDGET_EMBED_PATH } from '../../config';
 export const onBoardingSubscriberId = 'on-boarding-subscriber-id-123';
 export const inAppSandboxSubscriberId = 'in-app-sandbox-subscriber-id-123';
 export const notificationTemplateName = 'On-boarding notification';
-export const cloneDemoRepo = 'git clone https://github.com/novuhq/notification-center-demo.git';
+export const cloneDemoRepo = 'git clone https://github.com/khulnasoft/notification-center-demo.git';
 export const APPLICATION_IDENTIFIER = '<APPLICATION_IDENTIFIER>';
 export const API_KEY = '<API_KEY>';
 export const BACKEND_API_URL = '<BACKEND_API_URL>';
