@@ -15,7 +15,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -54,7 +53,6 @@
 - Pawan Jain
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
-
 
 ## 2.0.3 (2024-12-24)
 
@@ -157,7 +155,7 @@
 - override to optional prop ([52abdee11](https://github.com/khulnasoft/novu/commit/52abdee11))
 - add stricter push notification payload typing ([7ab166f3a](https://github.com/khulnasoft/novu/commit/7ab166f3a))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - ainouzgali
 - Biswajeet Das

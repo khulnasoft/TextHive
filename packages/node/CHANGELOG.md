@@ -19,7 +19,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -67,7 +66,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.0.6 (2024-12-24)
 
 ### 🩹 Fixes
@@ -87,7 +85,6 @@
 - George Djabarov @djabarovgeorge
 - Pawan Jain
 - Sokratis Vidros @SokratisVidros
-
 
 ## 2.0.5 (2024-12-02)
 
