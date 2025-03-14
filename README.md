@@ -36,7 +36,7 @@
   <br />
 
 <br/>
-  <a href="https://github.com/khulnasoft/novu/issues/new?assignees=&labels=type%3A+bug&template=bug_report.yml&title=%F0%9F%90%9B+Bug+Report%3A+">Report a bug</a>
+  <a href="https://github.com/khulnasoft/texthive/issues/new?assignees=&labels=type%3A+bug&template=bug_report.yml&title=%F0%9F%90%9B+Bug+Report%3A+">Report a bug</a>
   ·
   <a href="https://docs.novu.co">Docs</a>
   ·
@@ -72,18 +72,18 @@ With Novu, you can create custom workflows and define conditions for each channe
 
 ## 📚 Table of contents
 
-- [Getting Started](https://github.com/khulnasoft/novu#-getting-started)
-- [Embeddable Inbox and Preferences](https://github.com/khulnasoft/novu#embeddable-notification-center)
-- [Providers](https://github.com/khulnasoft/novu#providers)
-  - [Email](https://github.com/khulnasoft/novu#-email)
-  - [SMS](https://github.com/khulnasoft/novu#-sms)
-  - [Push](https://github.com/khulnasoft/novu#-push)
-  - [Chat](https://github.com/khulnasoft/novu#-chat)
-  - [In-App](https://github.com/khulnasoft/novu#-in-app)
-  - [Others](https://github.com/khulnasoft/novu#other-coming-soon)
-- [Need Help?](https://github.com/khulnasoft/novu#-need-help)
-- [Links](https://github.com/khulnasoft/novu#-links)
-- [License](https://github.com/khulnasoft/novu#%EF%B8%8F-license)
+- [Getting Started](https://github.com/khulnasoft/texthive#-getting-started)
+- [Embeddable Inbox and Preferences](https://github.com/khulnasoft/texthive#embeddable-notification-center)
+- [Providers](https://github.com/khulnasoft/texthive#providers)
+  - [Email](https://github.com/khulnasoft/texthive#-email)
+  - [SMS](https://github.com/khulnasoft/texthive#-sms)
+  - [Push](https://github.com/khulnasoft/texthive#-push)
+  - [Chat](https://github.com/khulnasoft/texthive#-chat)
+  - [In-App](https://github.com/khulnasoft/texthive#-in-app)
+  - [Others](https://github.com/khulnasoft/texthive#other-coming-soon)
+- [Need Help?](https://github.com/khulnasoft/texthive#-need-help)
+- [Links](https://github.com/khulnasoft/texthive#-links)
+- [License](https://github.com/khulnasoft/texthive#%EF%B8%8F-license)
 
 ## Embeddable Inbox component
 
@@ -102,56 +102,56 @@ Novu provides a single API to manage providers across multiple channels with a s
 
 #### 💌 Email
 
-- [x] [Sendgrid](https://github.com/khulnasoft/novu/tree/main/providers/sendgrid)
-- [x] [Netcore](https://github.com/khulnasoft/novu/tree/main/providers/netcore)
-- [x] [Mailgun](https://github.com/khulnasoft/novu/tree/main/providers/mailgun)
-- [x] [SES](https://github.com/khulnasoft/novu/tree/main/providers/ses)
-- [x] [Postmark](https://github.com/khulnasoft/novu/tree/main/providers/postmark)
-- [x] [Custom SMTP](https://github.com/khulnasoft/novu/tree/main/providers/nodemailer)
-- [x] [Mailjet](https://github.com/khulnasoft/novu/tree/main/providers/mailjet)
-- [x] [Mandrill](https://github.com/khulnasoft/novu/tree/main/providers/mandrill)
-- [x] [Brevo (formerly SendinBlue)](https://github.com/khulnasoft/novu/tree/main/providers/brevo)
-- [x] [MailerSend](https://github.com/khulnasoft/novu/tree/main/providers/mailersend)
-- [x] [Infobip](https://github.com/khulnasoft/novu/tree/main/providers/infobip)
-- [x] [Resend](https://github.com/khulnasoft/novu/tree/main/providers/resend)
-- [x] [SparkPost](https://github.com/khulnasoft/novu/tree/main/providers/sparkpost)
-- [x] [Outlook 365](https://github.com/khulnasoft/novu/tree/main/providers/outlook365)
+- [x] [Sendgrid](https://github.com/khulnasoft/texthive/tree/main/providers/sendgrid)
+- [x] [Netcore](https://github.com/khulnasoft/texthive/tree/main/providers/netcore)
+- [x] [Mailgun](https://github.com/khulnasoft/texthive/tree/main/providers/mailgun)
+- [x] [SES](https://github.com/khulnasoft/texthive/tree/main/providers/ses)
+- [x] [Postmark](https://github.com/khulnasoft/texthive/tree/main/providers/postmark)
+- [x] [Custom SMTP](https://github.com/khulnasoft/texthive/tree/main/providers/nodemailer)
+- [x] [Mailjet](https://github.com/khulnasoft/texthive/tree/main/providers/mailjet)
+- [x] [Mandrill](https://github.com/khulnasoft/texthive/tree/main/providers/mandrill)
+- [x] [Brevo (formerly SendinBlue)](https://github.com/khulnasoft/texthive/tree/main/providers/brevo)
+- [x] [MailerSend](https://github.com/khulnasoft/texthive/tree/main/providers/mailersend)
+- [x] [Infobip](https://github.com/khulnasoft/texthive/tree/main/providers/infobip)
+- [x] [Resend](https://github.com/khulnasoft/texthive/tree/main/providers/resend)
+- [x] [SparkPost](https://github.com/khulnasoft/texthive/tree/main/providers/sparkpost)
+- [x] [Outlook 365](https://github.com/khulnasoft/texthive/tree/main/providers/outlook365)
 
 #### 📞 SMS
 
-- [x] [Twilio](https://github.com/khulnasoft/novu/tree/main/providers/twilio)
-- [x] [Plivo](https://github.com/khulnasoft/novu/tree/main/providers/plivo)
-- [x] [SNS](https://github.com/khulnasoft/novu/tree/main/providers/sns)
-- [x] [Nexmo - Vonage](https://github.com/khulnasoft/novu/tree/main/providers/nexmo)
-- [x] [Sms77](https://github.com/khulnasoft/novu/tree/main/providers/sms77)
-- [x] [Telnyx](https://github.com/khulnasoft/novu/tree/main/providers/telnyx)
-- [x] [Termii](https://github.com/khulnasoft/novu/tree/main/providers/termii)
-- [x] [Gupshup](https://github.com/khulnasoft/novu/tree/main/providers/gupshup)
-- [x] [SMS Central](https://github.com/khulnasoft/novu/tree/main/providers/sms-central)
-- [x] [Maqsam](https://github.com/khulnasoft/novu/tree/main/providers/maqsam)
-- [x] [46elks](https://github.com/khulnasoft/novu/tree/main/providers/forty-six-elks)
-- [x] [Clickatell](https://github.com/khulnasoft/novu/tree/main/providers/clickatell)
-- [x] [Burst SMS](https://github.com/khulnasoft/novu/tree/main/providers/burst-sms)
-- [x] [Firetext](https://github.com/khulnasoft/novu/tree/main/providers/firetext)
-- [x] [Infobip](https://github.com/khulnasoft/novu/tree/main/providers/infobip)
+- [x] [Twilio](https://github.com/khulnasoft/texthive/tree/main/providers/twilio)
+- [x] [Plivo](https://github.com/khulnasoft/texthive/tree/main/providers/plivo)
+- [x] [SNS](https://github.com/khulnasoft/texthive/tree/main/providers/sns)
+- [x] [Nexmo - Vonage](https://github.com/khulnasoft/texthive/tree/main/providers/nexmo)
+- [x] [Sms77](https://github.com/khulnasoft/texthive/tree/main/providers/sms77)
+- [x] [Telnyx](https://github.com/khulnasoft/texthive/tree/main/providers/telnyx)
+- [x] [Termii](https://github.com/khulnasoft/texthive/tree/main/providers/termii)
+- [x] [Gupshup](https://github.com/khulnasoft/texthive/tree/main/providers/gupshup)
+- [x] [SMS Central](https://github.com/khulnasoft/texthive/tree/main/providers/sms-central)
+- [x] [Maqsam](https://github.com/khulnasoft/texthive/tree/main/providers/maqsam)
+- [x] [46elks](https://github.com/khulnasoft/texthive/tree/main/providers/forty-six-elks)
+- [x] [Clickatell](https://github.com/khulnasoft/texthive/tree/main/providers/clickatell)
+- [x] [Burst SMS](https://github.com/khulnasoft/texthive/tree/main/providers/burst-sms)
+- [x] [Firetext](https://github.com/khulnasoft/texthive/tree/main/providers/firetext)
+- [x] [Infobip](https://github.com/khulnasoft/texthive/tree/main/providers/infobip)
 - [ ] Bandwidth
 - [ ] RingCentral
 
 #### 📱 Push
 
-- [x] [FCM](https://github.com/khulnasoft/novu/tree/main/providers/fcm)
-- [x] [Expo](https://github.com/khulnasoft/novu/tree/main/providers/expo)
-- [x] [APNS](https://github.com/khulnasoft/novu/tree/main/providers/apns)
-- [x] [OneSignal](https://github.com/khulnasoft/novu/tree/main/providers/one-signal)
-- [x] [Pushpad](https://github.com/khulnasoft/novu/tree/main/providers/pushpad)
+- [x] [FCM](https://github.com/khulnasoft/texthive/tree/main/providers/fcm)
+- [x] [Expo](https://github.com/khulnasoft/texthive/tree/main/providers/expo)
+- [x] [APNS](https://github.com/khulnasoft/texthive/tree/main/providers/apns)
+- [x] [OneSignal](https://github.com/khulnasoft/texthive/tree/main/providers/one-signal)
+- [x] [Pushpad](https://github.com/khulnasoft/texthive/tree/main/providers/pushpad)
 - [ ] Pushwoosh
 
 #### 👇 Chat
 
-- [x] [Slack](https://github.com/khulnasoft/novu/tree/main/providers/slack)
-- [x] [Discord](https://github.com/khulnasoft/novu/tree/main/providers/discord)
-- [x] [MS Teams](https://github.com/khulnasoft/novu/tree/main/providers/ms-teams)
-- [x] [Mattermost](https://github.com/khulnasoft/novu/tree/main/providers/mattermost)
+- [x] [Slack](https://github.com/khulnasoft/texthive/tree/main/providers/slack)
+- [x] [Discord](https://github.com/khulnasoft/texthive/tree/main/providers/discord)
+- [x] [MS Teams](https://github.com/khulnasoft/texthive/tree/main/providers/ms-teams)
+- [x] [Mattermost](https://github.com/khulnasoft/texthive/tree/main/providers/mattermost)
 
 #### 📱 In-App
 
@@ -159,7 +159,7 @@ Novu provides a single API to manage providers across multiple channels with a s
 
 ## 📋 Read Our Code Of Conduct
 
-Before you begin coding and collaborating, please read our [Code of Conduct](https://github.com/khulnasoft/novu/blob/main/CODE_OF_CONDUCT.md) thoroughly to understand the standards (that you are required to adhere to) for community engagement. As part of our open-source community, we hold ourselves and other contributors to a high standard of communication. As a participant and contributor to this project, you agree to abide by our [Code of Conduct](https://github.com/khulnasoft/novu/blob/main/CODE_OF_CONDUCT.md).
+Before you begin coding and collaborating, please read our [Code of Conduct](https://github.com/khulnasoft/texthive/blob/main/CODE_OF_CONDUCT.md) thoroughly to understand the standards (that you are required to adhere to) for community engagement. As part of our open-source community, we hold ourselves and other contributors to a high standard of communication. As a participant and contributor to this project, you agree to abide by our [Code of Conduct](https://github.com/khulnasoft/texthive/blob/main/CODE_OF_CONDUCT.md).
 
 ## 💻 Need Help?
 
@@ -168,7 +168,7 @@ We are more than happy to help you. If you are getting any errors or facing prob
 ## 🔗 Links
 
 - [Home page](https://novu.co?utm_campaign=github-readme)
-- [Contribution guidelines](https://github.com/khulnasoft/novu/blob/main/CONTRIBUTING.md)
+- [Contribution guidelines](https://github.com/khulnasoft/texthive/blob/main/CONTRIBUTING.md)
 - [Run Novu locally](https://docs.novu.co/community/run-in-local-machine?utm_campaign=github-readme)
 
 ## 🛡️ License
@@ -186,5 +186,5 @@ The following modules and folders are licensed under the enterprise license:
 Thanks a lot for spending your time helping Novu grow. Keep rocking 🥂
 
 <a href="https://novu.co/contributors?utm_source=github">
-  <img src="https://contributors-img.web.app/image?repo=khulnasoft/novu" alt="Contributors"/>
+  <img src="https://contributors-img.web.app/image?repo=khulnasoft/texthive" alt="Contributors"/>
 </a>

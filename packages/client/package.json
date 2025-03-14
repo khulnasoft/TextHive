@@ -1,7 +1,7 @@
 {
   "name": "@novu/client",
   "version": "2.6.6",
-  "repository": "https://github.com/khulnasoft/novu",
+  "repository": "https://github.com/khulnasoft/texthive",
   "description": "API client to be used in end user environments",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

@@ -44,7 +44,7 @@ export const usePlainChat = () => {
             {
               icon: 'email',
               text: 'Contact Sales',
-              url: 'https://notify.novu.co/meetings/khulnasoft/novu-discovery-session-rr?utm_campaign=in_app_live_chat',
+              url: 'https://notify.novu.co/meetings/khulnasoft/texthive-discovery-session-rr?utm_campaign=in_app_live_chat',
             },
           ],
           theme: 'light',

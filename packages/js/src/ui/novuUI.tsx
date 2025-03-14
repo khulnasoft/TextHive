@@ -24,7 +24,7 @@ const version = PACKAGE_VERSION;
 const cssHref = isDev
   ? 'http://localhost:4010/index.css'
   : previewLastCommitHash
-    ? `https://esm.sh/pkg.pr.new/khulnasoft/novu/@novu/js@${previewLastCommitHash}/dist/index.css`
+    ? `https://esm.sh/pkg.pr.new/khulnasoft/texthive/@novu/js@${previewLastCommitHash}/dist/index.css`
     : `https://cdn.jsdelivr.net/npm/@novu/js@${version}/dist/index.css`;
 
 export type NovuUIOptions = NovuProviderProps;

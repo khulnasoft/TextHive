@@ -3,7 +3,7 @@
 
 # NestJS Module Wrapper
 
-A NestJS module wrapper for [@novu/node](https://github.com/khulnasoft/novu)
+A NestJS module wrapper for [@novu/node](https://github.com/khulnasoft/texthive)
 
 ## Usage
 

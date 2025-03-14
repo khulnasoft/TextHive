@@ -23,7 +23,7 @@ const helpfulResources: Resource[] = [
   {
     title: 'See our code on GitHub',
     image: 'git.svg',
-    url: 'https://github.com/khulnasoft/novu',
+    url: 'https://github.com/khulnasoft/texthive',
   },
   {
     title: 'Security & Compliance',

@@ -28,4 +28,4 @@ To learn more about Novu, take a look at the following resources:
 
 - [Novu](https://novu.co/)
 
-You can check out [Novu GitHub repository](https://github.com/khulnasoft/novu) - your feedback and contributions are welcome!
+You can check out [Novu GitHub repository](https://github.com/khulnasoft/texthive) - your feedback and contributions are welcome!

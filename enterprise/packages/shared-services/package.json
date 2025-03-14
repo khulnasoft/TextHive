@@ -7,7 +7,7 @@
   "module": "build/module/index.js",
   "private": true,
   "repository": {
-    "url": "https://github.com/khulnasoft/novu",
+    "url": "https://github.com/khulnasoft/texthive",
     "directory": "packages/nest"
   },
   "license": "MIT",

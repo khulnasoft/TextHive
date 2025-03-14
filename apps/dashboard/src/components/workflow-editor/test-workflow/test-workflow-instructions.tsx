@@ -244,7 +244,7 @@ export function TestWorkflowInstructions({ isOpen, onClose, workflow, to, payloa
                 <InstructionStep
                   index={0}
                   title="Install"
-                  code='composer require "khulnasoft/novu"'
+                  code='composer require "khulnasoft/texthive"'
                   codeTitle="Terminal"
                 />
 
@@ -296,7 +296,7 @@ NOVU_SECRET_KEY='${apiKey}'`}
                 <InstructionStep
                   index={0}
                   title="Install"
-                  code="go get github.com/khulnasoft/novu-go"
+                  code="go get github.com/khulnasoft/texthive-go"
                   codeTitle="Terminal"
                 />
 

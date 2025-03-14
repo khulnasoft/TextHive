@@ -1,7 +1,7 @@
 {
   "name": "@novu/react",
   "version": "2.6.6",
-  "repository": "https://github.com/khulnasoft/novu",
+  "repository": "https://github.com/khulnasoft/texthive",
   "description": "Novu <Inbox /> React SDK",
   "author": "Novu",
   "license": "ISC",

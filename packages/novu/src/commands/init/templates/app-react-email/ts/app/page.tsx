@@ -420,7 +420,10 @@ export default function Home() {
             <h3>Community</h3>
             <ul>
               <li>
-                <a href="https://github.com/khulnasoft/novu" target="_blank">
+                <a
+                  href="https://github.com/khulnasoft/texthive"
+                  target="_blank"
+                >
                   GitHub
                 </a>
               </li>

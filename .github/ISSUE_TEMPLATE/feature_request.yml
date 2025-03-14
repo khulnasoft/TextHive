@@ -51,7 +51,7 @@ body:
     attributes:
       label: '🏢 Have you read the Code of Conduct?'
       options:
-        - label: 'I have read the [Contributing Guidelines](https://github.com/khulnasoft/novu/blob/main/CONTRIBUTING.md)'
+        - label: 'I have read the [Contributing Guidelines](https://github.com/khulnasoft/texthive/blob/main/CONTRIBUTING.md)'
           required: true
   - type: dropdown
     id: willing-to-submit-pr
