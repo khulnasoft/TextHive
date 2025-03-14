@@ -164,7 +164,7 @@ export const VariantItemCard = ({
   const isRoot = nodeType === 'variantRoot';
   const isSelected = (isRoot && stepUuid === variantUuid) || variant.uuid === variantUuid;
   const conditions = variant.filters ?? [];
-  const conditionsCount = conditions && conditions.length > 0 ? (conditions[0].children?.length ?? 0) : 0;
+  const conditionsCount = conditions && conditions.length > 0 ? conditions[0].children?.length ?? 0 : 0;
 
   const onEdit: MouseEventHandler<HTMLButtonElement> = (e) => {
     e.stopPropagation();

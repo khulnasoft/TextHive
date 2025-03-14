@@ -86,7 +86,7 @@ export const VariableSelect = ({
   const onClose = () => {
     setIsOpen(false);
     setFilterValue('');
-    const newInputValue = inputValue !== '' ? inputValue : (value ?? '');
+    const newInputValue = inputValue !== '' ? inputValue : value ?? '';
     setInputValue(newInputValue);
     onChange(newInputValue);
   };

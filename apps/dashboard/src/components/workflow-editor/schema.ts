@@ -36,8 +36,8 @@ export const buildDynamicFormSchema = ({
   to: z.ZodObject<Record<string, z.ZodTypeAny>>;
   payload: z.ZodEffects<z.ZodString, any, string>;
 }> => {
-  const properties = typeof to === 'object' ? (to.properties ?? {}) : {};
-  const requiredFields = typeof to === 'object' ? (to.required ?? []) : [];
+  const properties = typeof to === 'object' ? to.properties ?? {} : {};
+  const requiredFields = typeof to === 'object' ? to.required ?? [] : [];
   const keys: Record<string, z.ZodTypeAny> = Object.keys(properties).reduce((acc, key) => {
     const value = properties[key];
 

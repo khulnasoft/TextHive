@@ -58,7 +58,7 @@ export default memo((node: INode) => {
 
   const { active, uuid, name, stepId, filters: conditions } = step;
   const variantsCount = step.variants?.length;
-  const conditionsCount = conditions && conditions.length > 0 ? (conditions[0].children?.length ?? 0) : 0;
+  const conditionsCount = conditions && conditions.length > 0 ? conditions[0].children?.length ?? 0 : 0;
 
   const onConditionsClose = () => setConditionsOpened(false);
 

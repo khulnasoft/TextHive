@@ -462,7 +462,7 @@ export class AddJob {
     digestAmount: number | undefined,
     delayAmount: undefined | number
   ) {
-    return (filtered ? 0 : (digestAmount ?? delayAmount)) ?? 0;
+    return (filtered ? 0 : digestAmount ?? delayAmount) ?? 0;
   }
 
   public async queueJob(job: JobEntity, delay: number) {

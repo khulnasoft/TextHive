@@ -69,7 +69,7 @@ function UnseenBadgeContainer({ storeId }: { storeId: string }) {
     return { ...foundQuery, seen: false, limit: 100 };
   }, [stores]);
   const { data } = useFeedUnseenCount({ query });
-  const unseenCount = query.seen ? 0 : (data?.count ?? 0);
+  const unseenCount = query.seen ? 0 : data?.count ?? 0;
 
   return <UnseenBadge unseenCount={unseenCount} />;
 }

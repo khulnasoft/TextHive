@@ -35,7 +35,7 @@ export class NormalizeVariables {
     filterVariables.tenant = await this.fetchTenantIfMissing(command, combinedFilters);
     filterVariables.payload = command.variables?.payload
       ? command.variables?.payload
-      : (command.job?.payload ?? undefined);
+      : command.job?.payload ?? undefined;
 
     filterVariables.step = command.variables?.step ?? undefined;
     filterVariables.actor = command.variables?.actor ?? undefined;

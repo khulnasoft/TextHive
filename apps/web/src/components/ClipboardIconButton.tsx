@@ -21,7 +21,7 @@ export const ClipboardIconButton: FC<IClipboardIconButtonProps> = ({
     <IconButton
       onClick={handleCopy}
       data-test-id={testId}
-      tooltipProps={{ label: (tooltipLabel ?? isCopied) ? 'Copied!' : 'Copy key' }}
+      tooltipProps={{ label: tooltipLabel ?? isCopied ? 'Copied!' : 'Copy key' }}
     >
       {isCopied ? <IconCheck {...iconProps} /> : <IconContentCopy {...iconProps} />}
     </IconButton>

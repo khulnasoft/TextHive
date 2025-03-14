@@ -53,9 +53,7 @@ export class GetNotificationsFeed {
 
     if (!subscriber) {
       throw new ApiException(
-        `Subscriber not found for this environment with the id: ${
-          command.subscriberId
-        }. Make sure to create a subscriber before fetching the feed.`
+        `Subscriber not found for this environment with the id: ${command.subscriberId}. Make sure to create a subscriber before fetching the feed.`
       );
     }
 
