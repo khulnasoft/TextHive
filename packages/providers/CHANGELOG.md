@@ -20,7 +20,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -70,7 +69,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.0.4 (2024-12-24)
 
 ### 🧱 Updated Dependencies
@@ -86,7 +84,6 @@
 - George Djabarov @djabarovgeorge
 - Lucky @L-U-C-K-Y
 - Pawan Jain
-
 
 ## 2.0.3 (2024-11-26)
 
@@ -106,7 +103,7 @@
 - Updated @novu/shared to 2.1.4
 - Updated @novu/stateless to 2.0.2
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - George Desipris @desiprisg
 - Himanshu Garg @merrcury
@@ -130,7 +127,7 @@
 - **framework:** so passthrough body is not casing transformed ([#6305](https://github.com/khulnasoft/texthive/pull/6305))
 - **echo:** Use dist for Echo artifacts ([#5590](https://github.com/khulnasoft/texthive/pull/5590))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Amin Mahfouz
 - David Söderberg @davidsoderberg

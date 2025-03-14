@@ -20,7 +20,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -65,7 +64,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.0.4 (2024-12-24)
 
 ### 🧱 Updated Dependencies
@@ -79,7 +77,6 @@
 - George Desipris @desiprisg
 - George Djabarov @djabarovgeorge
 - Pawan Jain
-
 
 ## 2.0.3 (2024-11-26)
 
@@ -99,7 +96,7 @@
 - Updated @novu/client to 2.0.3
 - Updated @novu/shared to 2.1.4
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - George Desipris @desiprisg
 - Himanshu Garg @merrcury
@@ -152,7 +149,7 @@
 - **ws|webhook:** socket versions match ([1c72a8a35](https://github.com/khulnasoft/texthive/commit/1c72a8a35))
 - **infra:** resolve some deepsource javascript issues ([368733676](https://github.com/khulnasoft/texthive/commit/368733676))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - ainouzgali
 - Biswajeet Das @BiswaViraj

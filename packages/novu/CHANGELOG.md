@@ -19,7 +19,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -66,7 +65,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.2.2 (2024-12-24)
 
 ### 🚀 Features
@@ -90,7 +88,6 @@
 - Pawan Jain
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.2.1 (2024-11-26)
 
 ### 🚀 Features
@@ -108,7 +105,7 @@
 
 - Updated @novu/shared to 2.1.4
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - George Desipris @desiprisg
 - Himanshu Garg @merrcury
@@ -125,7 +122,7 @@
 
 - **root:** add novu cli flags and remove magicbell ([#6779](https://github.com/khulnasoft/texthive/pull/6779))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Dima Grossman @scopsy
 - Pawan Jain
