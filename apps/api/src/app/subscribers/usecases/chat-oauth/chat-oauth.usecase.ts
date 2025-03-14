@@ -60,9 +60,7 @@ export class ChatOauth {
     clientId: string,
     integrationIdentifier?: string
   ): string {
-    let redirectUri = `${
-      process.env.API_ROOT_URL
-    }/v1/subscribers/${subscriberId}/credentials/slack/oauth/callback?environmentId=${environmentId}`;
+    let redirectUri = `${process.env.API_ROOT_URL}/v1/subscribers/${subscriberId}/credentials/slack/oauth/callback?environmentId=${environmentId}`;
 
     if (integrationIdentifier) {
       redirectUri = `${redirectUri}&integrationIdentifier=${integrationIdentifier}`;

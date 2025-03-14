@@ -80,9 +80,7 @@ export class TenantController {
   @ApiOkPaginatedResponse(GetTenantResponseDto)
   @ApiOperation({
     summary: 'Get tenants',
-    description: `Returns a list of tenants, could paginated using the \`page\` and \`limit\` query parameter.${
-      v2TenantsApiDescription
-    }`,
+    description: `Returns a list of tenants, could paginated using the \`page\` and \`limit\` query parameter.${v2TenantsApiDescription}`,
   })
   @SdkUsePagination()
   async listTenants(

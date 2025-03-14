@@ -82,7 +82,7 @@ export class PlainCardsUsecase {
       const orgTier =
         organization?.apiServiceLevel === 'business' && isTrialRemaining
           ? 'business-trial'
-          : (organization?.apiServiceLevel ?? 'NA');
+          : organization?.apiServiceLevel ?? 'NA';
 
       return uiComponent.container({
         content: [

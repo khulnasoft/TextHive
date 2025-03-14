@@ -16,7 +16,7 @@ export const ChatPreview = ({
 }) => {
   const isValidChatPreview =
     previewData?.result.type === ChannelTypeEnum.CHAT && previewData?.result.preview.body.length > 0;
-  const body = isValidChatPreview ? ((previewData?.result.preview as ChatRenderOutput)?.body ?? '') : '';
+  const body = isValidChatPreview ? (previewData?.result.preview as ChatRenderOutput)?.body ?? '' : '';
 
   return (
     <div className="relative w-full rounded-xl border border-dashed border-[#E1E4EA] p-3">

@@ -19,7 +19,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -63,7 +62,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.0.4 (2024-12-24)
 
 ### 🧱 Updated Dependencies
@@ -76,7 +74,6 @@
 - George Desipris @desiprisg
 - George Djabarov @djabarovgeorge
 - Pawan Jain
-
 
 ## 2.0.3 (2024-11-26)
 
@@ -95,7 +92,7 @@
 
 - Updated @novu/shared to 2.1.4
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - George Desipris @desiprisg
 - Himanshu Garg @merrcury
@@ -147,7 +144,7 @@
 - template-literals non-string type bug fix ([1ec33ad60](https://github.com/novuhq/novu/commit/1ec33ad60))
 - mark typo ([b98d9e450](https://github.com/novuhq/novu/commit/b98d9e450))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - abhinav
 - ainouzgali

@@ -15,7 +15,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -57,7 +56,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.5.3 (2024-12-24)
 
 ### 🩹 Fixes
@@ -71,7 +69,6 @@
 - George Djabarov @djabarovgeorge
 - Pawan Jain
 - Sokratis Vidros @SokratisVidros
-
 
 ## 2.5.2 (2024-11-26)
 
@@ -90,7 +87,7 @@
 
 - Updated @novu/shared to 2.1.4
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - George Desipris @desiprisg
 - Himanshu Garg @merrcury
@@ -173,7 +170,7 @@
 
 - **framework:** Replace all computed property keys with static declarations ([#6926](https://github.com/novuhq/novu/pull/6926))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Biswajeet Das @BiswaViraj
 - David Söderberg @davidsoderberg

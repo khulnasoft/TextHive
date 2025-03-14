@@ -12,8 +12,8 @@ export function PushPreview({
   previewData?: GeneratePreviewResponseDto;
 }) {
   const isValidPushPreview = previewData?.result.type === ChannelTypeEnum.PUSH;
-  const subject = isValidPushPreview ? ((previewData?.result.preview as PushRenderOutput)?.subject ?? '') : '';
-  const body = isValidPushPreview ? ((previewData?.result.preview as PushRenderOutput)?.body ?? '') : '';
+  const subject = isValidPushPreview ? (previewData?.result.preview as PushRenderOutput)?.subject ?? '' : '';
+  const body = isValidPushPreview ? (previewData?.result.preview as PushRenderOutput)?.body ?? '' : '';
 
   if (isPreviewPending) {
     return (

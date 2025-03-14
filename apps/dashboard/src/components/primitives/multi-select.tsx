@@ -61,7 +61,7 @@ export const MultiSelect = <T extends string | number>({
             {selectedValues.length === 1 && selectedValues[0].label}
             {selectedValues.length === 2 && selectedValues.map(({ label }) => label).join(', ')}
             {selectedValues.length === options.length
-              ? (placeholderAll ?? 'All selected')
+              ? placeholderAll ?? 'All selected'
               : selectedValues.length > 2 && `${selectedValues.length} ${placeholderSelected ?? 'selected'}`}
             {}
           </TruncatedText>

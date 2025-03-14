@@ -301,9 +301,7 @@ export function WorkflowNode({
                 position={isVariant || isVariantRoot ? 'left' : 'right'}
                 titleIcon={<ProviderMissing />}
                 title={`${CHANNEL_TYPE_TO_STRING[channelKey]} provider is not connected`}
-                content={`Please configure or activate a provider instance for the ${
-                  CHANNEL_TYPE_TO_STRING[channelKey]
-                } channel to send notifications over this node`}
+                content={`Please configure or activate a provider instance for the ${CHANNEL_TYPE_TO_STRING[channelKey]} channel to send notifications over this node`}
                 actionItem={
                   <Button
                     onClick={() => {
@@ -335,9 +333,7 @@ export function WorkflowNode({
                 position={isVariant || isVariantRoot ? 'left' : 'right'}
                 titleIcon={<ProviderMissing />}
                 title="Select primary provider"
-                content={`You have multiple provider instances for ${
-                  CHANNEL_TYPE_TO_STRING[channelKey]
-                } in the ${environment?.name} environment. Please select the primary instance.
+                content={`You have multiple provider instances for ${CHANNEL_TYPE_TO_STRING[channelKey]} in the ${environment?.name} environment. Please select the primary instance.
             `}
                 actionItem={
                   <Button

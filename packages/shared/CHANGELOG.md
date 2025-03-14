@@ -3,7 +3,7 @@
 ### 🚀 Features
 
 - **api-service:** system limits & update pricing pages ([#7718](https://github.com/novuhq/novu/pull/7718))
-- **api-service:** Nv 5353 allow only a za z0 1  characters for subscriberid ([#7700](https://github.com/novuhq/novu/pull/7700))
+- **api-service:** Nv 5353 allow only a za z0 1 characters for subscriberid ([#7700](https://github.com/novuhq/novu/pull/7700))
 - **api-service:** add resources limits ([#7624](https://github.com/novuhq/novu/pull/7624))
 - **api-service:** add FFs for the new tiering ([#7717](https://github.com/novuhq/novu/pull/7717))
 - **root:** add no only github action ([#7692](https://github.com/novuhq/novu/pull/7692))
@@ -27,7 +27,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -44,7 +43,7 @@
 - **api-service:** Add patch subscriber functionality with tests ([#7596](https://github.com/novuhq/novu/pull/7596))
 - **api-service:** get subscriber ([#7591](https://github.com/novuhq/novu/pull/7591))
 - **api-service,dashboard:** New subscribers page and api ([#7525](https://github.com/novuhq/novu/pull/7525))
-- **dashboard:** Workflows search and sort functionality -  NV-4462 & NV-4461 ([#7550](https://github.com/novuhq/novu/pull/7550))
+- **dashboard:** Workflows search and sort functionality - NV-4462 & NV-4461 ([#7550](https://github.com/novuhq/novu/pull/7550))
 - **dashboard:** Multi environments management ([#7522](https://github.com/novuhq/novu/pull/7522))
 - **dashboard:** step conditions editor ui ([#7502](https://github.com/novuhq/novu/pull/7502))
 - **dashboard:** Template store modal ([#7436](https://github.com/novuhq/novu/pull/7436))
@@ -91,7 +90,7 @@
 - **api-service:** digest schema - remove the schema defaults as it doesn't work with the framework ajv validation ([#7334](https://github.com/novuhq/novu/pull/7334))
 - **api:** @novu/api -> @novu/api-service ([#7348](https://github.com/novuhq/novu/pull/7348))
 - **api:** Crate of fixes part 2 ([#7292](https://github.com/novuhq/novu/pull/7292))
-- **api:** centralize upsert validation  + improve nested error handling ([#7173](https://github.com/novuhq/novu/pull/7173))
+- **api:** centralize upsert validation + improve nested error handling ([#7173](https://github.com/novuhq/novu/pull/7173))
 - **dashboard:** nested payload gen ([#7240](https://github.com/novuhq/novu/pull/7240))
 - **dashboard:** Always trust the URL for the environment selection ([#7223](https://github.com/novuhq/novu/pull/7223))
 
@@ -108,7 +107,6 @@
 - Pawan Jain
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
-
 
 ## 2.1.5 (2024-12-24)
 
@@ -142,7 +140,7 @@
 - **api-service:** digest schema - remove the schema defaults as it doesn't work with the framework ajv validation ([#7334](https://github.com/novuhq/novu/pull/7334))
 - **api:** @novu/api -> @novu/api-service ([#7348](https://github.com/novuhq/novu/pull/7348))
 - **api:** Crate of fixes part 2 ([#7292](https://github.com/novuhq/novu/pull/7292))
-- **api:** centralize upsert validation  + improve nested error handling ([#7173](https://github.com/novuhq/novu/pull/7173))
+- **api:** centralize upsert validation + improve nested error handling ([#7173](https://github.com/novuhq/novu/pull/7173))
 - **dashboard:** nested payload gen ([#7240](https://github.com/novuhq/novu/pull/7240))
 - **dashboard:** Always trust the URL for the environment selection ([#7223](https://github.com/novuhq/novu/pull/7223))
 
@@ -157,7 +155,6 @@
 - Pawan Jain
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
-
 
 ## 2.1.4 (2024-11-26)
 
@@ -175,7 +172,7 @@
 - **api, dal, framework:** fix the uneven and unused dependencies ([#7103](https://github.com/novuhq/novu/pull/7103))
 - **api:** Nv 4823 no validation around bad urls + 400 in client ([#7092](https://github.com/novuhq/novu/pull/7092))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - GalTidhar @tatarco
 - George Desipris @desiprisg
@@ -236,7 +233,7 @@
 - **root:** Build only public packages during preview deployments ([#6590](https://github.com/novuhq/novu/pull/6590))
 - **worker, application-generic, shared:** Don't use Subscriber Prefs for Workflows with readonly Prefs ([#6581](https://github.com/novuhq/novu/pull/6581))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Adam Chmara
 - Biswajeet Das

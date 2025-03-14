@@ -101,9 +101,7 @@ export class ChatOauthCallback {
     command: ChatOauthCallbackCommand,
     integrationCredentials: ICredentialsDto
   ): Promise<string> {
-    let redirectUri = `${
-      process.env.API_ROOT_URL
-    }/v1/subscribers/${command.subscriberId}/credentials/${command.providerId}/oauth/callback?environmentId=${command.environmentId}`;
+    let redirectUri = `${process.env.API_ROOT_URL}/v1/subscribers/${command.subscriberId}/credentials/${command.providerId}/oauth/callback?environmentId=${command.environmentId}`;
 
     if (command.integrationIdentifier) {
       redirectUri = `${redirectUri}&integrationIdentifier=${command.integrationIdentifier}`;

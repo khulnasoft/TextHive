@@ -174,7 +174,7 @@ export const buildDynamicZodSchema = (obj: JSONSchemaDefinition, key = ''): ZodV
  * Build default values based on the UI Schema object.
  */
 export const buildDefaultValues = (uiSchema: UiSchema): Record<string, unknown> => {
-  const properties = typeof uiSchema === 'object' ? (uiSchema.properties ?? {}) : {};
+  const properties = typeof uiSchema === 'object' ? uiSchema.properties ?? {} : {};
 
   const keys: Record<string, unknown> = Object.keys(properties).reduce((acc, key) => {
     const property = properties[key];

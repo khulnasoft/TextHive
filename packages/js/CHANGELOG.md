@@ -15,7 +15,6 @@
 - GalTidhar @tatarco
 - George Djabarov @djabarovgeorge
 
-
 ## 2.6.5 (2025-02-07)
 
 ### 🚀 Features
@@ -62,7 +61,6 @@
 - Paweł Tymczuk @LetItRock
 - Sokratis Vidros @SokratisVidros
 
-
 ## 2.6.4 (2024-12-24)
 
 ### 🩹 Fixes
@@ -80,7 +78,6 @@
 - Pasha
 - Pawan Jain
 - Sokratis Vidros @SokratisVidros
-
 
 ## 2.6.3 (2024-11-26)
 
@@ -102,7 +99,7 @@
 
 - Updated @novu/client to 2.0.3
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Biswajeet Das @BiswaViraj
 - George Desipris @desiprisg
@@ -220,7 +217,7 @@
 - **js:** Export NovuUI from ui directory only ([#5998](https://github.com/novuhq/novu/pull/5998))
 - **js:** Use key prefix instead of id for alpha shades ([#5890](https://github.com/novuhq/novu/pull/5890))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Adam Chmara
 - Biswajeet Das @BiswaViraj
