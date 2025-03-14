@@ -1,0 +1,36 @@
+'@novu/api-service':
+  - apps/api/**/*
+'@novu/worker':
+  - apps/worker/**/*
+'@novu/web':
+  - apps/web/**/*
+'@novu/dashboard':
+  - apps/dashboard/**/*
+'@novu/ws':
+  - apps/ws/**/*
+'@novu/inbound-mail':
+  - apps/inbound-mail/**/*
+'@novu/webhook':
+  - apps/webhook/**/*
+'@novu/dal':
+  - libs/dal/**/*
+'@novu/design-system':
+  - libs/design-system/**/*
+'@novu/novui':
+  - libs/novui/**/*
+'@novu/shared':
+  - packages/shared/**/*
+'@novu/notification-center':
+  - packages/notification-center/**/*
+'@novu/notification-center-vue':
+  - packages/notification-center-vue/**/*
+'@novu/notification-center-angular':
+  - packages/notification-center-angular/**/*
+'providers':
+  - providers/**/*
+'CI/CD':
+  - .github/**/*
+'docker':
+  - docker/**/*
+'scripts':
+  - scripts/**/*
